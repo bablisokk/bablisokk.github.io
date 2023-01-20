@@ -52,9 +52,9 @@ with open(file_path, 'rb') as f:
 # E-posta linki gönder
 import smtplib
 
-sender_email = "nalloger@yandex.com"
-receiver_email = "selambenhorhor@gmail.com"
-password = "nal123nal123"
+sender_email = "mail"
+receiver_email = "mail"
+password = "password"
 
 message = f"Subject: temp klasörünün linki\n\nMerhaba,\nAşağıda 'temp' klasörünün dosyaupload.com'da yüklü hali için linki var.\n{download_link}"
 
